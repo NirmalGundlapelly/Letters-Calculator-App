@@ -1,0 +1,74 @@
+/* Write your code here. */
+.bgContainer {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 100vh;
+  padding: 20px;
+  margin-top: -21px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contentContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  width: 60%;
+}
+.heading {
+  font-size: 45px;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.textContent {
+  width: 300px;
+}
+.label {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+.displayCount {
+  background-color: #ffffff;
+  color: #219a6f;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 15px 25px;
+  font-size: 30px;
+}
+.inputElement {
+  color: #ffffff;
+  border: #e4e7eb solid 2px;
+  background-color: transparent;
+  outline: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 767px) {
+  .contentContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-container {
+    order: -1;
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+  }
+  .logo {
+    width: 80%;
+  }
+  .heading {
+    font-size: 25px;
+    text-align: center;
+  }
+  .textContent {
+    display: flex;
+    flex-direction: column;
+  }
+}
